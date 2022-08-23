@@ -1,0 +1,6 @@
+RAZA,Alfabetico
+EDAD,Numerico
+DUEÑO,Alfabetico
+GENERO,Alfabetico
+CUIDADO,Alfabetico
+CALIFICACION,Alfabetico

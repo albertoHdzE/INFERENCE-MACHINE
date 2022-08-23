@@ -1,0 +1,14 @@
+:Base Help.hlp
+:Title MAQUINA DE INFERENCIA
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 EXPERT SYSTEM
+1 MÁQUINA DE INFERENCIA=SHM_contents0001@Help.hlp
+1 LAS CLAUSULAS=SHM_contents0002@Help.hlp
+1 LAS REGLAS=SHM_contents0003@Help.hlp
+1 MANUAL
+1 CREAR CLAUSULAS=SHM_contents0004@Help.hlp
+1 CREAR REGLAS=SHM_contents0005@Help.hlp
+1 CONSULTA=SHM_contents0006@Help.hlp
+1 EJEMPLO
+1 EJEMPLO =SHM_contents0007@Help.hlp

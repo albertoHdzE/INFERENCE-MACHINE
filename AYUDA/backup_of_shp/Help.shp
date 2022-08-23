@@ -1,0 +1,170 @@
+##v##00.4.50
+EditHelpFileTitle.Text=MAQUINA DE INFERENCIA
+form2.STextForeHeadline.Color=16777215
+form2.STextForeText.Color=0
+form2.STextBackHeadline.Color=12845056
+form2.STextBackText.Color=14876671
+form2.STextHeadlineFont.Caption=Arial
+form2.STextTextFont.Caption=Arial
+form2.sTextFontSizeForHeadline.Caption=12
+form2.sTextFontSizeForText.Caption=9
+form2.CBoxBold.Checked=1
+form2.CBoxNoForeColor.Checked=0
+form2.CBoxLanguageID.ItemIndex=0
+form2.CBoxCharSet.ItemIndex=0
+form2.EditContents.Text=Contents
+form2.EditFrontpageName.Text=Front page with index
+form2.CBoxDontMakeFrontpage.Checked=1
+form2.EditLogoPath.Text=
+form2.EditFrontpageButtonCaption.Text=Front page
+form2.RGroupHorizontalAlignment.ItemIndex=0
+form2.RGroupVerticalAlignment.ItemIndex=0
+form2.CBoxBlankLineBeforeEachHeading.Checked=1
+form2.CBoxMakeFrontPageButton.Checked=0
+form2.SpinEditFrontpageIDnumber.Value=9999
+form2.CBoxAddAboutMenu.Checked=0
+form2.EditAboutMenuCaption.Text=&About this help file...
+form2.CBoxPopupPagesForAboutMenu.Tag=-1
+form2.EditConstantNameFilePrefix.Text=pageConstants_
+form2.EditConstantNameFileExt.Text=txt
+form5.sTextColor1=0
+form5.sTextColor2=9743070
+form5.sTextColor3=12386403
+form5.sTextColor4=255
+form5.sTextColor5=8421376
+form5.sTextColor6=8650752
+form5.sTextColor7=33280
+form5.sTextColor8=32896
+form5.sTextColor9=13026246
+form5.sTextColor10=16711680
+form5.sTextColor11=65280
+form5.sTextColor12=8651007
+form5.sTextColor13=16777215
+form5.sTextColor14=16757429
+form5.sTextColor15=9764863
+form5.sTextColor16=8421504
+form5.sTextComment1=
+form5.sTextComment2=
+form5.sTextComment3=
+form5.sTextComment4=
+form5.sTextComment5=
+form5.sTextComment6=
+form5.sTextComment7=
+form5.sTextComment8=
+form5.sTextComment9=
+form5.sTextComment10=
+form5.sTextComment11=
+form5.sTextComment12=
+form5.sTextComment13=
+form5.sTextComment14=
+form5.sTextComment15=
+form5.sTextComment16=
+NumOfPages=5
+------------ end of project settings / page settings follow ------------
+pageC.pages[0].ImageIndex=-1
+pageTitle(0).Text=MÁQUINA DE INFERENCIA
+getPageConstantLabel(0).Caption=
+getPageContentHeaderLabel(0).Caption=
+pageKeywords(0).Text=
+pageC.pages[1].ImageIndex=-1
+pageTitle(1).Text=LAS CLAUSULAS
+getPageConstantLabel(1).Caption=
+getPageContentHeaderLabel(1).Caption=
+pageKeywords(1).Text=
+pageC.pages[2].ImageIndex=-1
+pageTitle(2).Text=LAS REGLAS
+getPageConstantLabel(2).Caption=
+getPageContentHeaderLabel(2).Caption=
+pageKeywords(2).Text=
+pageC.pages[3].ImageIndex=-1
+pageTitle(3).Text=CREAR CLAUSULAS
+getPageConstantLabel(3).Caption=
+getPageContentHeaderLabel(3).Caption=
+pageKeywords(3).Text=
+pageC.pages[4].ImageIndex=-1
+pageTitle(4).Text=CREAR REGLAS
+getPageConstantLabel(4).Caption=
+getPageContentHeaderLabel(4).Caption=
+pageKeywords(4).Text=
+pageC.pages[5].ImageIndex=-1
+pageTitle(5).Text=CONSULTA
+getPageConstantLabel(5).Caption=
+getPageContentHeaderLabel(5).Caption=
+pageKeywords(5).Text=
+------------ end of page titles / full text of pages follow ------------
+----- SHM ---- page 0 ---- 
+<b>MÁQUINA DE INFERENCIA</b> Fué creado como una aplicación como parte de la evaluación de la materia de <b>"Inteligencia Artificial"</b> impartida en el Institudo de Investigaciones En Matemáticas Aplicadas y computación <b>IIMAS</b>
+
+\par\qc\{bmc 1.bmp\}\par\ql
+----- SHM ---- page 1 ---- 
+En <b>MAQUINA DE INFERENCIA</b> se ha optado por manejar el consepto de Hecho por <b>CLAUSULA</b>.
+A semejanza de la terminología usada en el ambito de la inteligencia artificial, lo hechos (calusulas) se refiere a una cndición verdadera.
+
+La especificación de estas es vital dentro de MAQUINA DE INFERENCIA pues es la base para crear las reglas que componen la base de conocimiento.
+
+Las clausulas deben tener el siguiente formato:
+
+<c><b><VARIABLE> <OPERADOR> <VALOR></b></c>
+
+<b>Variable: </b> Esta es la especificación de una variable que interviene en la codificación del problema. Esta se refierre a una característica o a un elemento que pueda contener el valor o valores posibles que guian la adquisición del conocimiento. En MAQUINA DE INFERENCIA, esta se relaciona con una pregunta específica que es la que se hace y se presenta en el sistema en una pantalla especial para la captura de las opciones de esta.
+
+<b>Operador: </b>Este puede ser <, >, = o $, este último se usa como "diferente" . Y especifica la clase de relación entre la variable y su valor posible asignado.
+
+<b>Valor: </b> Se refiere al posible(s) valor(es) tomado por una variable. En caso de poder tomar mas de un valor una sola variable se debe especificar una clausula por cada valor.
+----- SHM ---- page 2 ---- 
+Las REGLAS en <b>MAQUINA DE INFERENCIA</b> tienen el mismo sentido que en los conceptos desarrollados en el campo de la Inteligencia Artificial. Que es una serie de hechos que unidos con operadores lógicos crean condiciones de existencia teniendo al final una consecuente. 
+
+En MÁQUINA DE INFERENCIA tienen el siguiente formato:
+<c>
+<b><CLAUSULA> <OPERADOR LOGICO> <CALUSULA> ... THEN <CONSECUENTE></b></c>
+
+Donde:
+<b>Clausula:</b> Es un hecho creado con aterioridad
+<b>Operador Lógico: </b>Puede ser OR o AND
+<b>Consecuente: </b>Es el resultado final de la relación de las clausulas involucradas
+----- SHM ---- page 3 ---- 
+En el <b>menú principal/Crear/Clausulas</b>
+
+\par\qc\{bmc 2.bmp\}\par\ql
+
+se presenta la siguinte forma:
+
+\par\qc\{bmc 3.bmp\}\par\ql
+
+En VARIABLE se introduce el identificador de la variable a usar y en la PREGUNTA RELACIONADA, la pregunta que el usuario desea que se despliege en pantalla cuando se requiera el valor de entrada para esta variable,
+Al hacer click sovre AGREGAR, esta aparecera en la lista del COMBOBOX donde se completa la especificación de cad clausula.
+
+Al hacer click sobre AGREGAR CLAUSULA, esta se agregará a la base de clausulas y se mostrara al final de la lista de clausulas
+----- SHM ---- page 4 ---- 
+Al ir a <b>Menu/Crear/Reglas</b>
+
+\par\qc\{bmc 4.bmp\}\par\ql
+
+Aparece la forma para crear las reglas
+
+\par\qc\{bmc 6.bmp\}\par\ql
+
+Al hacer click sobre AGREGAR HECHO se despliega la forma en donde se presentan "Todas" las clausulas creadas
+
+\par\qc\{bmc 7.bmp\}\par\ql
+
+En esta se puede navegar hasta encontrar la indicada para crear una regla específica. Para agregar esta a una regla se hace click sobre esta y automatica es agragada lo que se puede ver en la ventana de creación de reglas
+
+Al hacer Click sobre VER REGLAS  se despliega la forma que presenta todas las reglas hasta ahora existentes en la base de datos la cual es completamente editable para su actualización. La actualización se hace automáticamente al cerrar esta forma, pudiendo borrar y editar pero nunca agragar, para agregar se usará la anterior forma presentada.
+
+\par\qc\{bmc 8.bmp\}\par\ql
+
+En la Forma para la creción de regla esta actualiza automaticamente el número de regla y el orden de la regla, es decir, el usuario no tiene que intervenir en estos datos pues MAQUINA DE INFERENCIA se encarga de administrarlos adecuadamente.
+
+Para agragar operadores se usan los botenes OR o AND segun convenga al usuario
+----- SHM ---- page 5 ---- 
+Al ir a <b>Consultar/Iniciar Consulta</b>
+
+\par\qc\{bmc 9.bmp\}\par\ql
+
+La máquina de inferencia entra en acción actuando como sistema experto.
+Si se posee toda la información lógicamente dispuesta y bien determinada, la máquina de inferencia llegará a conclusiones correctas mediente la siguiente intefaz
+
+\par\qc\{bmc 10.bmp\}\par\ql
+
+Donde se presentan todos los posibles valores para cada una de la variables, la pregunta relacionada con tal variable y una interfaz de entrada de opciones

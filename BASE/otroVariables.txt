@@ -1,0 +1,4 @@
+A,Numerico
+B,Alfabetico
+C,Alfabetico
+S,Numerico
